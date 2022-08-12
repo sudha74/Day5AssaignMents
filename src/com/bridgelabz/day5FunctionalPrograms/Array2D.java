@@ -12,13 +12,13 @@ public class Array2D {
         int[][] arr = new int[m][n];
         System.out.println("o/p");
         for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++){
-                arr[i][j]=scanner.nextInt();
+            for (int j = 0; j < n; j++) {
+                arr[i][j] = scanner.nextInt();
             }
         }
-        for (int i=0; i< arr.length;i++){
-            for (int j=0; j<arr[i].length;j++){
-                System.out.println("arr["+i+"]["+j+"]= "+arr[i][j]);
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.println("arr[" + i + "][" + j + "]= " + arr[i][j]);
             }
         }
 
